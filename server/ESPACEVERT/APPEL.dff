@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:dff="http://www.compart.com/ns/dff" xmlns:dffui="http://www.compart.com/ns/dffui" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:lang="en">
+<!--table {
+	border: 2px solid black;
+		border-collapse: collapse;
+}
+td,th {
+	border: 1px solid black;
+}-->
+
+<dff:dffhead>
+	<dff:data loop="/*/*" mode="record" src="devis_sample1.xml" type="text/xml"></dff:data></dff:dffhead>
+<head>
+    <title>new dff</title>
+        <meta name="author" content="DocBridge Impress by Compart"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+body {
+	font-family: Arimo;
+	font-size: 16px;
+}
+@font-face  {
+	font-family: Arimo;
+	font-weight: normal;
+	src: url(http://cpfr2233:10030/RepositoryManager/rs/v2/binaries/editorTemplates/fonts/Arimo/Arimo-Regular.ttf);
+}
+@font-face  {
+	font-family: Arimo;
+	font-weight: bold;
+	src: url(http://cpfr2233:10030/RepositoryManager/rs/v2/binaries/editorTemplates/fonts/Arimo/Arimo-Bold.ttf);
+}
+@font-face  {
+	font-family: Arimo;
+	font-weight: bold;
+	font-style: italic;
+	src: url(http://cpfr2233:10030/RepositoryManager/rs/v2/binaries/editorTemplates/fonts/Arimo/Arimo-BoldItalic.ttf);
+}
+@font-face  {
+	font-family: Arimo;
+	font-weight: normal;
+	font-style: italic;
+	src: url(http://cpfr2233:10030/RepositoryManager/rs/v2/binaries/editorTemplates/fonts/Arimo/Arimo-Italic.ttf);
+}
+@page layout-iqwi {
+	size: A4;
+}
+.layout-iqwi {
+	page: layout-iqwi;
+	break-before: always;
+	position: relative;
+	text-align: justify;
+}
+@page layout-iddb {
+	size: A4;
+}
+.layout-iddb {
+	page: layout-iddb;
+	break-before: always;
+}
+#iprp {
+	color: black;
+	width: 162px;
+	height: 153px;
+}
+#izy4i {
+	position: absolute;
+	top: 165.66265625px;
+	left: 57.7575px;
+	width: 274.4px;
+	padding: 0;
+	height: 99.2px;
+	font-size: 12px;
+}
+#itqb6 {
+	position: absolute;
+	top: 120.69px;
+	left: 336.4728125px;
+	width: 325px;
+	height: 99.6px;
+	font-size: 12px;
+}
+#i1irj {
+	position: absolute;
+	top: 285px;
+	left: 57.75625000000002px;
+	width: 16cm;
+	padding: 0;
+	font-size: 11pt;
+	height: 674px;
+}
+th,td {
+	border: 1px solid black;
+}
+.texteP2 {
+	margin-top: 3cm;
+	left: 2.5cm;
+	width: 16cm;
+	text-align: justify;
+	font-size: 11pt;
+}
+.remplir {
+	border: 1px solid black;
+}
+th, td {
+	border: 1px solid black;
+}
+#iwaxv {
+position: relative;
+}
+#iibdg {
+	color: black;
+	width: 109px;
+	height: 66px;
+	padding-top: 1cm;
+	margin-left: 11cm;
+}
+#iute6 {
+	padding: 0px;
+}
+.gjs-plh-image.imp-display-inline-block.imp-transparent-border {
+	width: 55px;
+	height: 10px;
+}
+#igbpz {
+	opacity: 1;
+}
+#ik0p7 {
+	opacity: 1;
+}
+#igkiy {
+	opacity: 1;
+}
+#i7az4 {
+	opacity: 1;
+}
+#BALISETEXTE {
+}
+#ifg0v {
+	font-size: 6px;
+	color: #22cc17;
+}
+#inuuh {
+	font-size: 6px;
+	color: grey;
+}
+#i3ejaf {
+	font-size: 7pt;
+}
+#iamry {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#ilexx {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#i06qsj {
+	opacity: 1;
+}
+#id1ag {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#ib529 {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#iepel {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#ik8xr {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#ijmtv {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#iqlfj {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#ifprf {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#irjtn {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#i4xi3 {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#i3iud {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#i6hb6 {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+#inf4g {
+	opacity: 1;
+	vertical-align: middle;
+	padding: 2px;
+	min-width: 40px;
+	margin: 0px;
+}
+</style>
+</head>
+
+<body dffui:layout="fixed" dffui:languages="en">
+    <div id="layout-iqwi" dffui:layout="fixed">
+        <div dffui:layout="fixed" id="page-it66" class="layout-iqwi"><img alt="" id="iprp" src="EV.jpg" />
+            <p id="izy4i">Réf : DPTAF/YL/N°22-XXX<br/> Affaire suivie par Monsieur : <br/> Yoann LAYET <br/> Service:<xsl:value-of id="ik0p7" dffui:value="Régime Général" select="categorie/regimeSocial"></xsl:value-of><br/> Tél. : <xsl:value-of id="igkiy" dffui:value="01 11 11 11 11" select="client/contactSignataire/telephone"></xsl:value-of> <br/> Courriels : <xsl:value-of id="i7az4" dffui:value="rfttttn@XXXXXXX.fr" select="client/contactSignataire/courriel"></xsl:value-of> <br/> </p>
+            <div dffui:layout="responsive" id="itqb6">
+                <p id="ixhdv"><xsl:value-of id="igbpz" dffui:value="ISAAC NEWTON" select="client/entreprise/nom"></xsl:value-of><br/> <xsl:value-of id="iz308" dffui:value="AV GABRIEL PERI" select="client/entreprise/adresse/rue"></xsl:value-of><br/> </p>
+                <xsl:value-of dffui:value="00000" select="client/entreprise/adresse/codePostal"></xsl:value-of>
+                <xsl:value-of dffui:value="DUNKERQUE" select="client/entreprise/adresse/ville"></xsl:value-of>
+            </div>
+            <div id="i1irj">
+                <p id="iute6"><strong id="ix1l9"><span id="ieje7" lang="IT">Objet:</span> <span id="ihd7g" lang="IT">Fermage – Campagne 2021/2022</span></strong></p>
+                <p id="BALISETEXTE">Monsieur,<br/><br/> Conformément au bail à long terme du 4 décembre 1990 vous liant à l'Agence des espaces verts, vous êtes redevable du fermage correspondant à la campagne 2021/2022, s'élevant à la somme de 814,97 €, décomposée comme suit : <xsl:value-of id="i06qsj" dffui:value="DUPOND test" select="assureur/conseiller/nom"></xsl:value-of><br/><br/> 778,53€ (Loyer 2021) x 106,48 (indice fermage 2022) / 105,33 (indice 2021) = 814,97 €<br/><br/> En raison d’un problème informatique, la quote-part de remboursement de la taxe foncière (si vous devez en régler une) ne pourra être calculée qu’au second trimestre 2023. Un avis de paiement complémentaire vous sera alors adressé.<br/><br/> Vous trouverez ci-joint l’avis des sommes à payer correspondant. Vous voudrez bien vous en libérer par virement bancaire, chèque bancaire ou postal à l’ordre du Trésor Public (AEV) à l’adresse ci-dessous :<br/><br/> Trésor Public des Établissements Publics Locaux de Paris Receveur de l’Agence des espaces verts 94 rue Réaumur 75002 PARIS CEDEX 02<br/><br/> Veuillez joindre à votre paiement le numéro titre figurant sur l’avis des sommes à payer (merci d’indiquer ce numéro en référence de votre virement si vous optez pour ce mode de paiement). <br/><br/>Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées.</p><br/><br/><br/>
+                <div><img id="iibdg" alt="" src="EVSIGNE.jpg" /></div><br/><br/>
+                <div id="iwaxv" dffui:layout="fixed">
+<!--<img id="idq1k" alt="" src="http://cpfr2233:10030/RepositoryManager/rs/v2/binaries/users/anaAdmin/ESPACEVERT/EVBASDEPAGE.png" />-->
+                    <p id="ifg0v">Agence des espace verts de la Région île de france<br/> <span id="inuuh">Cité régionale de l'environnement<br/>92 Avenue du Général Leclerc 93500 Pantin<br/>Téléphone:01 83 65 38 00 - Télécopie: 01 82 83 83 85<br/>www.aev-iledefrance.fr<br/><br/></span></p>
+                    <pre id="i3ejaf">R E P U B L I Q U E           F R A N C A I S E</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

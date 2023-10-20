@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import PremData from './components/PremData'; // Import your PremData component
+import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+import DisplayXml from './components/DisplayXml';
 
-function App() {
+// Rename the functional component to AppFunction
+function AppFunction() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router>
+
+<nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/contact">OurXml</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+
+     
+
+        </ul>
+      </nav>
+      {/* Use Routes component instead of Route */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+  
+
+        
+      </Routes>
+      
+    </Router>
   );
+}
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+
+
+
+        <h1>My React App</h1>
+        {/* Render your PremData component */}
+     
+        <AppFunction />
+   
+      </div>
+    );
+  }
 }
 
 export default App;

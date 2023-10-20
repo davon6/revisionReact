@@ -1,0 +1,9 @@
+// routes/api.js
+const express = require('express');
+const premController = require('../controllers/prem');
+
+const router = express.Router();
+
+router.get('/query', premController.getAllPremRecords);
+
+module.exports = router;

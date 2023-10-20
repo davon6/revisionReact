@@ -1,0 +1,16 @@
+// controllers/premController.js
+const premModel = require('../models/Prem');
+
+async function getAllPremRecords(req, res) {
+  try {
+    const records = await premModel.getAllPremRecords();
+    res.json(records);
+  } catch (error) {
+    console.error('Error in getAllPremRecords controller:', error);
+    res.status(500).json({ error: 'Server error' });
+  }
+}
+
+module.exports = {
+  getAllPremRecords,
+};

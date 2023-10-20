@@ -1,0 +1,17 @@
+// routes/api.js
+const express = require('express');
+const infoController = require('../controllers/infoPubli.js');
+
+const router = express.Router();
+
+
+
+router.get('/allInfo', infoController.getAllInfoPubli);
+
+router.get('/allColInfo', infoController.getAllColumnNamesInfoPubli);
+
+router.post('/expFlux', infoController.exportFlux);
+
+
+
+module.exports = router;

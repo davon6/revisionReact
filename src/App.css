@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+
+
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  color: whitesmoke; /* Set your desired text color */
+  background-color: #2980b9; /* Set your desired background color */
+}
+
+.my-button.clicked {
+  background-color: #3498db; /* Change to your desired color */
+  border: 2px solid #2980b9; /* Change to your desired border style */
+  color: white; /* Change text color if necessary */
+}
+
+/* Define the styles for the main container */
+.app-container {
+  display: flex;
+  width: 1400px;
+  align-items: center;
+}
+
+/* Button style */
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Define the side menu styles */
+.side-menu {
+  /*width: 250px;  Initially hidden */
+  width: 2px ; 
+  height: 700px;
+  position: sticky ;
+  /*fixed*/
+  top: 0;
+  right: 0;
+  background-color: #0bcdd44d;
+  overflow-x: hidden;
+  transition: 0.5s; /* Transition effect to slide in the menu */
+  z-index: 2;
+  padding-top: 60px;
+}
+
+/* Visible class to make the side menu appear */
+.side-menu.visible {
+  width: 250px; /* Adjust the width as needed */
+}
+
+/* Close button in the side menu */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Table inside the side menu */
+table {
+  margin: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Define the main content styles */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.tox.tox-tinymce {
+  z-index: 1; /* Decrease the z-index to make the TinyMCE editor appear below the side menu */
+}
+
+
+.tox-editor-header .tox-editor-content { display: none; }
+
+
+
+
+
+
